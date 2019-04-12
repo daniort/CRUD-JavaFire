@@ -9,7 +9,7 @@ firebase.initializeApp({
 // Initialize Cloud Firestore through Firebase
 var db = firebase.firestore();
 
-//Agregar documentos
+
 function guardar(){
     var nombre = document.getElementById('nombre').value;
     var apellido = document.getElementById('apellido').value;
@@ -31,7 +31,7 @@ function guardar(){
     });
 }
 
-//Leer documentos
+
 var tabla = document.getElementById('tabla');
 db.collection("users").onSnapshot((querySnapshot) => {
     tabla.innerHTML = '';
@@ -50,7 +50,7 @@ db.collection("users").onSnapshot((querySnapshot) => {
     });
 });
 
-//borrar documentos
+
 function eliminar(id){
     db.collection("users").doc(id).delete().then(function() {
         console.log("Document successfully deleted!");
@@ -59,7 +59,7 @@ function eliminar(id){
     });
 }
 
-//editar documentos
+
 function editar(id,nombre,apellido,fecha){
 
     document.getElementById('nombre').value = nombre;
