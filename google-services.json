@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "644372417855",
+    "firebase_url": "https://smile-76a5d.firebaseio.com",
+    "project_id": "smile-76a5d",
+    "storage_bucket": "smile-76a5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644372417855:android:63a5c850c1e365c8",
+        "android_client_info": {
+          "package_name": "crud.jf2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644372417855-63uldl9lqplc81tab0ufsurr6lsug500.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgR5BcfbHvQ_X06cUiz1Jfqjd6gF53ZLg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644372417855-63uldl9lqplc81tab0ufsurr6lsug500.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
